@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Adeel Portolio</title>
+</head>
+
+<body>
+
+    <!-- Hero section -->
+    <section class="pb-5">
+        <div id="particles-js"></div>
+        <div class="hero-main py-5 position-relative">
+            <div class="top-right-bg position-absolute">
+                <img class="w-100" src="./assets/images/roght-top-circle-bg.png" alt="bg circle">
+            </div>
+            <div class="bottom-left-bg position-absolute">
+                <img class="w-100 h-100" src="./assets/images/hero-left-bottom-cerccle.png" alt="bg circle">
+            </div>
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-between zIndex-10">
+                    <div class="hero-left-content col-12 col-md-8 pe-0 pe-md-5">
+                        <div class="position-relative heading-bg">
+                            <img class="position-absolute zIndex-10" src="./assets/images/heading-bg-dot.png"
+                                alt="heading bg icon">
+                            <h2 class="text-blue mb-0">Hey there!, I’m</h2>
+                        </div>
+                        <h1 class="roboto-font">Adeel Pirzada</h1>
+                        <h3 class="text-blue typewriter ">Software Engineer</h3>
+
+                        <p>
+                            Revolutionizing Aquaculture and Agriculture Industry using
+                            Artificial Intelligence | AI-Enabled Automation
+                        </p>
+                    </div>
+                    <div class="hero-right-content col-12 col-md-3 zIndex-10">
+                        <div class="">
+                            <img class="w-100" src="./assets/images/ceo.png" alt="ceo adeel Pirzada">
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-sec pt-5 pt-md-0 pb-4 zIndex-10">
+                    <h4 class="white-text">Frameworks and Technologies</h4>
+                    <div class="tech-logos pt-2 d-flex flex-wrap">
+                        <div class="single-Tech-Logo">
+                            <img class="w-100" src="./assets/images/net-1.png" alt="tech logo">
+                        </div>
+                        <div class="single-Tech-Logo">
+                            <img class="w-100" src="./assets/images/mysql.png" alt="tech logo">
+                        </div>
+                        <div class="single-Tech-Logo">
+                            <img class="w-100" src="./assets/images/reactnative.png" alt="tech logo">
+                        </div>
+                        <div class="single-Tech-Logo">
+                            <img class="w-100" src="./assets/images/AIlogo-1.png" alt="tech logo">
+                        </div>
+                        <div class="single-Tech-Logo">
+                            <img class="w-100" src="./assets/images/JavaScript-logo1.png" alt="tech logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-sec zIndex-10 pt-5 pb-5 pb-md-0 pt-md-0">
+                    <div class="counter-main d-flex flex-column flex-md-row justify-content-center justify-content-between zIndex-10">
+                        <div
+                            class="single-counter zIndex-10 d-flex flex-column justify-content-center align-items-center white-text">
+                            <p class="count-num mb-0" id="projects-counter">100</p>
+                            <p class="count-title mb-0">Projects Completed</p>
+                        </div>
+                        <div
+                            class="single-counter zIndex-10 d-flex flex-column justify-content-center align-items-center white-text">
+                            <p class="count-num mb-0" id="experience-counter">7</p>
+                            <p class="count-title mb-0">Years of Experience</p>
+                        </div>
+                        <div
+                            class="single-counter zIndex-10 d-flex flex-column justify-content-center align-items-center white-text">
+                            <p class="count-num mb-0" id="clients-counter">60</p>
+                            <p class="count-title mb-0">Clients</p>
+                        </div>
+                        <div
+                            class="single-counter zIndex-10 d-flex flex-column justify-content-center align-items-center white-text">
+                            <div class="aquacon-award white-text mb-1">
+                                <img class="w-100" src="./assets/images/Aquacon1.png" alt="aquacon logo">
+                            </div>
+                            <p class="count-title mb-0">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="down-btn position-absolute d-flex justify-content-center zIndex-10">
+                <a href="#about" class="bg-transparent border-0 zIndex-10" >
+                    <svg width="60" height="46" viewBox="0 0 98 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="animate-path1"
+                            d="M2.41335 15.35C1.64864 15.7743 1.04168 16.279 0.627467 16.8352C0.213257 17.3913 -1.22445e-06 17.9879 -1.19811e-06 18.5903C-1.17178e-06 19.1928 0.213257 19.7893 0.627468 20.3455C1.04168 20.9016 1.64864 21.4064 2.41335 21.8307L43.2073 44.65C43.9657 45.0778 44.8681 45.4173 45.8623 45.649C46.8565 45.8807 47.9229 46 49 46C50.0771 46 51.1435 45.8807 52.1377 45.649C53.1319 45.4173 54.0343 45.0778 54.7927 44.65L95.5866 21.8307C96.3513 21.4064 96.9583 20.9016 97.3725 20.3455C97.7867 19.7893 98 19.1928 98 18.5903C98 17.9878 97.7867 17.3913 97.3725 16.8352C96.9583 16.279 96.3513 15.7743 95.5866 15.35C94.8282 14.9222 93.9258 14.5827 92.9316 14.351C91.9374 14.1193 90.871 14 89.7939 14C88.7168 14 87.6505 14.1193 86.6562 14.351C85.662 14.5827 84.7596 14.9222 84.0012 15.35L49 34.9746L13.9988 15.35C13.2404 14.9222 12.338 14.5827 11.3438 14.351C10.3495 14.1193 9.28314 14 8.20609 14C7.12903 14 6.06263 14.1193 5.06841 14.351C4.07419 14.5827 3.17182 14.9222 2.41335 15.35Z"
+                            fill="#4958E0" />
+                        <path class="animate-path2"
+                            d="M22.3544 8.75937C21.9253 8.99802 21.5846 9.28195 21.3522 9.59479C21.1197 9.90762 21 10.2432 21 10.5821C21 10.921 21.1197 11.2565 21.3522 11.5693C21.5846 11.8822 21.9253 12.1661 22.3544 12.4048L45.249 25.2406C45.6746 25.4813 46.1811 25.6722 46.7391 25.8026C47.297 25.9329 47.8955 26 48.5 26C49.1045 26 49.703 25.9329 50.2609 25.8026C50.8189 25.6722 51.3254 25.4812 51.751 25.2406L74.6456 12.4048C75.0747 12.1661 75.4154 11.8822 75.6479 11.5693C75.8803 11.2565 76 10.921 76 10.5821C76 10.2432 75.8803 9.90762 75.6479 9.59478C75.4154 9.28195 75.0747 8.99802 74.6456 8.75936C74.2199 8.51875 73.7135 8.32777 73.1555 8.19743C72.5975 8.0671 71.999 8 71.3945 8C70.7901 8 70.1916 8.0671 69.6336 8.19743C69.0756 8.32777 68.5692 8.51875 68.1435 8.75936L48.5 19.7982L28.8565 8.75937C28.4308 8.51875 27.9244 8.32777 27.3664 8.19744C26.8084 8.0671 26.2099 8 25.6055 8C25.001 8 24.4025 8.0671 23.8445 8.19744C23.2865 8.32777 22.7801 8.51875 22.3544 8.75937Z"
+                            fill="#4958E0" />
+                        <path class="animate-path3"
+                            d="M34.7388 0.421871C34.5047 0.554456 34.3189 0.712196 34.1921 0.885993C34.0653 1.05979 34 1.2462 34 1.43448C34 1.62276 34.0653 1.80917 34.1921 1.98297C34.3189 2.15676 34.5047 2.3145 34.7388 2.44709L47.2267 9.57813C47.4589 9.71181 47.7351 9.81791 48.0395 9.89031C48.3438 9.96272 48.6703 10 49 10C49.3297 10 49.6562 9.96272 49.9605 9.89031C50.2649 9.81791 50.5411 9.71181 50.7733 9.57813L63.2612 2.44709C63.4953 2.3145 63.6811 2.15676 63.8079 1.98297C63.9347 1.80917 64 1.62275 64 1.43448C64 1.2462 63.9347 1.05979 63.8079 0.885992C63.6811 0.712195 63.4953 0.554454 63.2612 0.42187C63.029 0.288193 62.7528 0.182092 62.4484 0.109686C62.1441 0.0372789 61.8176 -2.62273e-07 61.4879 -2.47861e-07C61.1582 -2.33449e-07 60.8318 0.0372789 60.5274 0.109686C60.2231 0.182092 59.9468 0.288194 59.7146 0.42187L49 6.55457L38.2854 0.421871C38.0532 0.288194 37.7769 0.182093 37.4726 0.109687C37.1682 0.0372799 36.8418 8.29456e-07 36.5121 8.43868e-07C36.1824 8.5828e-07 35.8559 0.03728 35.5516 0.109687C35.2472 0.182094 34.971 0.288195 34.7388 0.421871Z"
+                            fill="#4958E0" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me seection  -->
+    <section id="about">
+        <div class="about-main container pb-5">
+            <h3 class="text-center text-blue pt-4 pb-5">About Me</h3>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="col-12 col-md-6">
+                    <img class="w-100" class="ronded-3" src="./assets/images/aboutme.png" alt="about me banner">
+                </div>
+                <div class="col-12 col-md-6 ps-md-5">
+                    <p class="white-text about-desc">
+                        I am the CEO of Panacealogics, with extensive experience and a deep passion for the field of
+                        Artificial Intelligence. Over the years, I have dedicated myself to advancing AI technologies
+                        and driving innovation within the industry. My commitment to excellence and vision for the
+                        future continues to shape the direction of our company and the AI landscape
+                    </p>
+                    <div class="d-flex pt-4 gap-4">
+                        <a href="#" target="_blank" class="black-btn d-flex gap-3 align-items-center">
+                            <span>
+                                <svg width="35" height="35" viewBox="0 0 52 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.0582 0.599976C22.7071 0.599976 19.3888 1.26002 16.2928 2.54243C13.1968 3.82484 10.3837 5.7045 8.01414 8.07408C3.22855 12.8597 0.540039 19.3503 0.540039 26.1182C0.540039 37.3972 7.86376 46.9665 17.9945 50.3604C19.2704 50.5646 19.6787 49.7735 19.6787 49.0845V44.772C12.6101 46.3031 11.1046 41.3525 11.1046 41.3525C9.93073 38.3924 8.27205 37.6014 8.27205 37.6014C5.9499 36.0192 8.45068 36.0703 8.45068 36.0703C11.0025 36.2489 12.355 38.6986 12.355 38.6986C14.575 42.5774 18.3262 41.4291 19.7808 40.8166C20.0104 39.158 20.6739 38.0352 21.3884 37.3972C15.7234 36.7593 9.77762 34.5647 9.77762 24.8423C9.77762 22.0097 10.7473 19.7386 12.406 17.9268C12.1508 17.2889 11.2577 14.635 12.6612 11.19C12.6612 11.19 14.8047 10.501 19.6787 13.7929C21.6946 13.2315 23.8892 12.9508 26.0582 12.9508C28.2273 12.9508 30.4218 13.2315 32.4378 13.7929C37.3118 10.501 39.4553 11.19 39.4553 11.19C40.8588 14.635 39.9656 17.2889 39.7105 17.9268C41.3691 19.7386 42.3388 22.0097 42.3388 24.8423C42.3388 34.5902 36.3676 36.7337 30.677 37.3717C31.5957 38.1628 32.4378 39.7194 32.4378 42.0926V49.0845C32.4378 49.7735 32.8461 50.5901 34.1475 50.3604C44.2782 46.941 51.5764 37.3972 51.5764 26.1182C51.5764 22.7671 50.9164 19.4488 49.634 16.3528C48.3516 13.2568 46.4719 10.4437 44.1023 8.07408C41.7327 5.7045 38.9196 3.82484 35.8236 2.54243C32.7276 1.26002 29.4093 0.599976 26.0582 0.599976Z"
+                                        fill="#4958E0" />
+                                </svg>
+
+                            </span> Github
+                        </a>
+                        <a href="#" target="_blank" class="black-btn d-flex gap-3 align-items-center">
+                            <span>
+                                <svg width="35" height="35" viewBox="0 0 41 41" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M35.9534 0.579956C37.1274 0.579956 38.2533 1.04634 39.0835 1.8765C39.9137 2.70666 40.38 3.8326 40.38 5.00662V35.9933C40.38 37.1673 39.9137 38.2933 39.0835 39.1234C38.2533 39.9536 37.1274 40.42 35.9534 40.42H4.96671C3.79268 40.42 2.66674 39.9536 1.83658 39.1234C1.00642 38.2933 0.540039 37.1673 0.540039 35.9933V5.00662C0.540039 3.8326 1.00642 2.70666 1.83658 1.8765C2.66674 1.04634 3.79268 0.579956 4.96671 0.579956H35.9534ZM34.8467 34.8866V23.156C34.8467 21.2423 34.0865 19.407 32.7333 18.0539C31.3802 16.7007 29.5449 15.9405 27.6312 15.9405C25.7499 15.9405 23.5587 17.0914 22.4963 18.8178V16.361H16.3211V34.8866H22.4963V23.9749C22.4963 22.2706 23.8686 20.8762 25.5728 20.8762C26.3947 20.8762 27.1828 21.2027 27.7639 21.7838C28.345 22.3649 28.6715 23.1531 28.6715 23.9749V34.8866H34.8467ZM9.12777 12.8861C10.114 12.8861 11.0597 12.4943 11.7571 11.797C12.4544 11.0997 12.8462 10.1539 12.8462 9.16769C12.8462 7.10929 11.1862 5.42716 9.12777 5.42716C8.13572 5.42716 7.1843 5.82125 6.48282 6.52273C5.78133 7.22422 5.38724 8.17564 5.38724 9.16769C5.38724 11.2261 7.06937 12.8861 9.12777 12.8861ZM12.2043 34.8866V16.361H6.07337V34.8866H12.2043Z"
+                                        fill="#4958E0" />
+                                </svg>
+
+
+                            </span> Linkedin
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Project Section  -->
+    <section>
+        <div class="project-main container">
+            <h3 class="text-center text-blue pt-4 pb-5">My Projects</h3>
+
+            <div class="pb-5">
+                <div class="filters d-flex flex-column flex-wrap flex-md-row align-items-center justify-content-xl-between gap-4">
+                    <div class="singleFilter d-flex align-items-center gap-3 py-1 px-3 px-xl-5 rounded-3">
+                        <input type="checkbox" class="filter-checkbox" id="filter-all">
+                        <label for="filter-all" class="d-flex gap-3 align-items-center">
+                            <svg width="30" height="29" viewBox="0 0 30 29" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 20.625V15H5.625V20.625H0ZM1.875 16.875V18.75H3.75V16.875H1.875ZM0 13.125V7.5H5.625V13.125H0ZM1.875 9.375V11.25H3.75V9.375H1.875ZM0 5.625V0H5.625V5.625H0ZM1.875 1.875V3.75H3.75V1.875H1.875ZM9.375 11.25V9.375H26.25V11.25H9.375ZM22.5 16.875V18.75H9.375V16.875H22.5ZM9.375 1.875H30V3.75H9.375V1.875ZM0 28.125V22.5H5.625V28.125H0ZM1.875 24.375V26.25H3.75V24.375H1.875ZM9.375 26.25V24.375H26.25V26.25H9.375Z"
+                                    fill="currentColor" />
+                            </svg>
+                            All
+                        </label>
+                    </div>
+                    <div class="singleFilter d-flex align-items-center gap-3 py-1 px-3 px-xl-5 rounded-3">
+                        <input type="checkbox" class="filter-checkbox" id="filter-ai">
+                        <label for="filter-ai" class="d-flex gap-3 align-items-center">
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M34.375 15.625V11.875H30.625V8.125C30.622 7.13135 30.226 6.17925 29.5234 5.47663C28.8208 4.77401 27.8686 4.37797 26.875 4.375H23.125V0.625H19.375V4.375H15.625V0.625H11.875V4.375H8.125C7.13135 4.37797 6.17925 4.77401 5.47663 5.47663C4.77401 6.17925 4.37797 7.13135 4.375 8.125V11.875H0.625V15.625H4.375V19.375H0.625V23.125H4.375V26.875C4.37797 27.8686 4.77401 28.8208 5.47663 29.5234C6.17925 30.226 7.13135 30.622 8.125 30.625H11.875V34.375H15.625V30.625H19.375V34.375H23.125V30.625H26.875C27.8686 30.622 28.8208 30.226 29.5234 29.5234C30.226 28.8208 30.622 27.8686 30.625 26.875V23.125H34.375V19.375H30.625V15.625H34.375ZM26.875 26.875H8.125V8.125H26.875V26.875Z"
+                                    fill="currentColor" />
+                            </svg>
+                            Artificial Intelligence
+                        </label>
+                    </div>
+                    <div class="singleFilter d-flex align-items-center gap-3 py-1 px-3 px-xl-5 rounded-3">
+                        <input type="checkbox" class="filter-checkbox" id="filter-custom-software">
+                        <label for="filter-custom-software" class="d-flex gap-3 align-items-center">
+                            <svg width="32" height="30" viewBox="0 0 32 30" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 2.85714V5.71429H31.4286V2.85714C31.4286 2.09938 31.1276 1.37266 30.5917 0.836838C30.0559 0.30102 29.3292 0 28.5714 0H2.85714C2.09938 0 1.37266 0.30102 0.836838 0.836838C0.30102 1.37266 0 2.09938 0 2.85714ZM4.28571 4.28571C4.00317 4.28571 3.72697 4.20193 3.49204 4.04496C3.25712 3.88798 3.07401 3.66487 2.96589 3.40383C2.85776 3.1428 2.82947 2.85556 2.88459 2.57844C2.93971 2.30133 3.07577 2.04678 3.27556 1.84699C3.47535 1.6472 3.7299 1.51114 4.00701 1.45602C4.28413 1.4009 4.57137 1.42919 4.8324 1.53731C5.09344 1.64544 5.31655 1.82854 5.47353 2.06347C5.6305 2.2984 5.71429 2.5746 5.71429 2.85714C5.71429 3.23602 5.56378 3.59939 5.29587 3.8673C5.02796 4.1352 4.66459 4.28571 4.28571 4.28571ZM8.57143 4.28571C8.28888 4.28571 8.01268 4.20193 7.77776 4.04496C7.54283 3.88798 7.35973 3.66487 7.2516 3.40383C7.14348 3.1428 7.11518 2.85556 7.17031 2.57844C7.22543 2.30133 7.36149 2.04678 7.56128 1.84699C7.76107 1.6472 8.01561 1.51114 8.29273 1.45602C8.56984 1.4009 8.85708 1.42919 9.11812 1.53731C9.37916 1.64544 9.60227 1.82854 9.75924 2.06347C9.91622 2.2984 10 2.5746 10 2.85714C9.99887 3.23568 9.848 3.59838 9.58033 3.86605C9.31267 4.13371 8.94996 4.28458 8.57143 4.28571ZM0 7.14286V27.1429C0 27.9006 0.30102 28.6273 0.836838 29.1632C1.37266 29.699 2.09938 30 2.85714 30H28.5714C29.3292 30 30.0559 29.699 30.5917 29.1632C31.1276 28.6273 31.4286 27.9006 31.4286 27.1429V7.14286H0ZM11.5714 20.4286L13.4286 22.2857L12.4286 23.2857L11.4286 24.2857L8.57143 21.4286L5.71429 18.5714L8.57143 15.7143L11.4286 12.8571L12.4286 13.8571L13.4286 14.8571L11.5714 16.7143L9.71429 18.5714L11.5714 20.4286ZM22.8571 21.4286L20 24.2857L19 23.2857L18 22.2857L19.8571 20.4286L21.7143 18.5714L19.8571 16.7143L18 14.8571L19 13.8571L20 12.8571L22.8571 15.7143L25.7143 18.5714L22.8571 21.4286Z"
+                                    fill="currentColor" />
+                            </svg>
+                            Custom Software
+                        </label>
+                    </div>
+                    <div class="singleFilter d-flex align-items-center gap-3 py-1 px-3 px-xl-5 rounded-3">
+                        <input type="checkbox" class="filter-checkbox" id="filter-mobile-apps">
+                        <label for="filter-mobile-apps" class="d-flex gap-3 align-items-center">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 7H27V11H23V7ZM23 13H27V17H23V13ZM17 7H21V11H17V7ZM17 13H21V17H17V13Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M14.5 26C15.3284 26 16 25.3284 16 24.5C16 23.6716 15.3284 23 14.5 23C13.6716 23 13 23.6716 13 24.5C13 25.3284 13.6716 26 14.5 26Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M21 30H8C7.46957 30 6.96086 29.7893 6.58579 29.4142C6.21071 29.0391 6 28.5304 6 28V4C6 3.46957 6.21071 2.96086 6.58579 2.58579C6.96086 2.21071 7.46957 2 8 2H21V4H8V28H21V20H23V28C23 28.5304 22.7893 29.0391 22.4142 29.4142C22.0391 29.7893 21.5304 30 21 30Z"
+                                    fill="currentColor" />
+                            </svg>
+                            Mobile Apps
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box pt-5">
+                <div class="d-flex justify-content-end">
+                    <div class="search-filter d-flex align-items-center">
+                        <span class="ps-2 ps-md-4">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.0162 19.3952C23.8318 16.9177 24.6449 13.8461 24.293 10.7948C23.9411 7.74358 22.4501 4.9377 20.1183 2.93856C17.7864 0.939415 14.7858 -0.105555 11.7165 0.0127073C8.64733 0.130969 5.73595 1.40374 3.56485 3.57639C1.39376 5.74904 0.123069 8.66133 0.00700327 11.7306C-0.109063 14.7999 0.938054 17.7999 2.93886 20.1303C4.93967 22.4607 7.74662 23.9497 10.7981 24.2994C13.8496 24.6491 16.9207 23.8338 19.3968 22.0164H19.395C19.45 22.0914 19.5112 22.1633 19.5787 22.2321L26.7975 29.4508C27.1491 29.8026 27.626 30.0004 28.1234 30.0006C28.6208 30.0007 29.0978 29.8033 29.4497 29.4518C29.8015 29.1002 29.9992 28.6232 29.9994 28.1259C29.9996 27.6285 29.8022 27.1514 29.4506 26.7996L22.2318 19.5808C22.1648 19.5129 22.0928 19.4521 22.0162 19.3952ZM22.5 12.1877C22.5 13.5419 22.2332 14.8829 21.715 16.1341C21.1967 17.3853 20.4371 18.5221 19.4795 19.4797C18.5219 20.4373 17.3851 21.1969 16.1339 21.7152C14.8827 22.2334 13.5417 22.5002 12.1875 22.5002C10.8332 22.5002 9.49222 22.2334 8.24105 21.7152C6.98988 21.1969 5.85304 20.4373 4.89544 19.4797C3.93783 18.5221 3.17822 17.3853 2.65997 16.1341C2.14172 14.8829 1.87497 13.5419 1.87497 12.1877C1.87497 9.45264 2.96147 6.82962 4.89544 4.89565C6.8294 2.96168 9.45243 1.87519 12.1875 1.87519C14.9225 1.87519 17.5455 2.96168 19.4795 4.89565C21.4135 6.82962 22.5 9.45264 22.5 12.1877Z"
+                                    fill="#4958E0" />
+                            </svg>
+                        </span>
+                        <input placeholder="Search" class="border-0 bg-transparent py-2 px-4 text-center w-100" type="search"
+                            name="search" id="search">
+                    </div>
+                </div>
+
+                <div class="projects pt-5">
+                    <div class="singleProject">
+                        <div class="project-banenr position-relative d-flex flex-column flex-md-row align-items-start px-5 py-1">
+                            <img class="project-logo pt-md-5" src="./assets/images/kidslifeskills1.png" alt="project logo">
+                            <img class="project-large-banenr mx-auto" src="./assets/images/KLSmockup 2ndslide1.png"
+                                alt="dan banner">
+
+                            <div class="play-btn position-absolute w-100 h-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 188 188" fill="none">
+                                    <g filter="url(#filter0_d_109_229)">
+                                      <path d="M84 0C106.278 0 127.644 8.84998 143.397 24.603C159.15 40.3561 168 61.7218 168 84C168 106.278 159.15 127.644 143.397 143.397C127.644 159.15 106.278 168 84 168C61.7218 168 40.3561 159.15 24.603 143.397C8.84998 127.644 0 106.278 0 84C0 61.7218 8.84998 40.3561 24.603 24.603C40.3561 8.84998 61.7218 0 84 0ZM15.75 84C15.75 102.101 22.9406 119.461 35.74 132.26C48.5393 145.059 65.899 152.25 84 152.25C102.101 152.25 119.461 145.059 132.26 132.26C145.059 119.461 152.25 102.101 152.25 84C152.25 65.899 145.059 48.5393 132.26 35.74C119.461 22.9406 102.101 15.75 84 15.75C65.899 15.75 48.5393 22.9406 35.74 35.74C22.9406 48.5393 15.75 65.899 15.75 84ZM66.9795 54.8835L111.751 81.753C112.138 81.9867 112.458 82.3163 112.681 82.71C112.903 83.1036 113.019 83.548 113.019 84C113.019 84.452 112.903 84.8964 112.681 85.29C112.458 85.6837 112.138 86.0133 111.751 86.247L66.9795 113.116C66.5814 113.356 66.1267 113.486 65.662 113.493C65.1972 113.499 64.7391 113.382 64.3343 113.154C63.9296 112.925 63.5928 112.593 63.3584 112.192C63.1239 111.791 63.0003 111.334 63 110.87V57.141C62.9984 56.6753 63.1207 56.2176 63.3544 55.8148C63.5881 55.412 63.9247 55.0786 64.3298 54.8488C64.7348 54.6191 65.1937 54.5012 65.6593 54.5073C66.125 54.5134 66.5806 54.6432 66.9795 54.8835Z" fill="#FDFDFD"/>
+                                    </g>
+                                    <defs>
+                                      <filter id="filter0_d_109_229" x="0" y="0" width="188" height="188" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                        <feOffset dx="10" dy="10"/>
+                                        <feGaussianBlur stdDeviation="5"/>
+                                        <feComposite in2="hardAlpha" operator="out"/>
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_109_229"/>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_109_229" result="shape"/>
+                                      </filter>
+                                    </defs>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Kid Life Skills</p>
+                                <a href="#" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                Kids Life Skills, a multiplatform coding and learning platform for kids. It teaches
+                                essential life skills like problem-solving and critical thinking through interactive
+                                lessons and games.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="singleProject">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start px-5 py-1">
+                            <img class="project-logo pt-md-5" src="./assets/images/logodan1.png" alt="project logo">
+                            <img class="project-large-banenr mx-auto" src="./assets/images/danbannerlarge.png"
+                                alt="dan banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">DAN</p>
+                                <a href="#" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                DAN is a cross-platform auction platform available on web and mobile, where suppliers
+                                bid on
+                                traders' listings, allowing traders to sell their items by creating trades.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="singleProject">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start px-5 py-1">
+                            <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo">
+                            <img class="project-large-banenr mx-auto" src="./assets/images/UB mockup2.png"
+                                alt="dan banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Urban Blue</p>
+                                <a href="#" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/paythonicon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Python</p>
+                                </div>
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                A versatile AI-powered digital system to identify, assess and prevent operational
+                                challenges on farms using hi-tech equipment by turning them into actionable insights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = [
+                { selector: '#projects-counter', target: 100, duration: 2000 },
+                { selector: '#experience-counter', target: 7, duration: 1500 },
+                { selector: '#clients-counter', target: 60, duration: 1800 }
+            ];
+
+            counters.forEach(({ selector, target, duration }) => {
+                const counter = document.querySelector(selector);
+                const increment = target / (duration / 50);
+
+                let current = 0;
+                const interval = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(interval);
+                        counter.textContent = target + '+';
+                    } else {
+                        counter.textContent = Math.floor(current);
+                    }
+                }, 50);
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const filters = document.querySelectorAll('.singleFilter');
+
+            filters.forEach(filter => {
+                const checkbox = filter.querySelector('.filter-checkbox');
+                checkbox.addEventListener('change', () => {
+                    if (checkbox.checked) {
+                        filter.classList.add('filter-active');
+                    } else {
+                        filter.classList.remove('filter-active');
+                    }
+                });
+
+                filter.addEventListener('click', () => {
+                    checkbox.checked = !checkbox.checked;
+                    if (checkbox.checked) {
+                        filter.classList.add('filter-active');
+                    } else {
+                        filter.classList.remove('filter-active');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        particlesJS("particles-js",
+            {
+                "particles": {
+                    "number": {
+                        "value": 180,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+
+
+        /* ---- stats.js config ---- */
+
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function () {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script>
+</body>
+
+</html>
