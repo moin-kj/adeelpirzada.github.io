@@ -337,6 +337,7 @@ canvas {
     border-radius: 19.56px 19.56px 0px 0px;
     background: #FFF;
     min-height: 450px;
+    
 }
 
 .p-name {
@@ -393,6 +394,16 @@ canvas {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+#projectVideo , #projectVideo2 {
+    width: 100%;
+    /* object-fit: cover; */
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--secondry-color);
 }
 
 @media (max-width: 766px) and (min-width: 220px) {
