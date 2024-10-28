@@ -406,6 +406,15 @@ canvas {
     background-color: var(--secondry-color);
 }
 
+
+.singleProject {
+    display: block; /* Default display */
+}
+
+.singleProject[style*="display: none"] {
+    display: none; /* Hide projects */
+}
+
 @media (max-width: 766px) and (min-width: 220px) {
     .hero-left-content h2 {
         font-size: 35px;

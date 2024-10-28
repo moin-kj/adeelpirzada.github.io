@@ -128,7 +128,8 @@
                         future continues to shape the direction of our company and the AI landscape
                     </p>
                     <div class="d-flex pt-4 gap-4">
-                        <a href="#" target="_blank" class="black-btn d-flex gap-3 align-items-center">
+                        <a href=" https://github.com/adeelpirzada?tab=repositories" target="_blank"
+                            class="black-btn d-flex gap-3 align-items-center">
                             <span>
                                 <svg width="35" height="35" viewBox="0 0 52 51" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +168,7 @@
                 <div
                     class="filters d-flex flex-column flex-wrap flex-md-row align-items-center justify-content-xl-between gap-4">
                     <div class="singleFilter d-flex align-items-center gap-3 py-1 px-3 px-xl-5 rounded-3">
-                        <input type="checkbox" class="filter-checkbox" id="filter-all">
+                        <input type="checkbox" class="filter-checkbox" id="filter-all" checked>
                         <label for="filter-all" class="d-flex gap-3 align-items-center">
                             <svg width="30" height="29" viewBox="0 0 30 29" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -241,13 +242,16 @@
                                     fill="#4958E0" />
                             </svg>
                         </span>
-                        <input placeholder="Search" class="border-0 bg-transparent py-2 px-4 text-center w-100"
+                        <input placeholder="Search industry , skill etc" class="border-0 bg-transparent py-2 px-4 text-center w-100"
                             type="search" name="search" id="search">
                     </div>
                 </div>
 
-                <div class="projects pt-5">
-                    <div class="singleProject">
+                <div class="projects pt-5" id="projects-container">
+                    <div id="filter-mobile-apps" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="DAN" data-desc="DAN is a cross-platform auction platform available on web and mobile, where suppliers
+                    bid on
+                    traders' listings, allowing traders to sell their items by creating trades.">
                         <div
                             class="project-banenr position-relative d-flex flex-column flex-md-row align-items-start px-5 py-1">
                             <img class="project-logo pt-md-5" src="./assets/images/logodan1.png" alt="project logo">
@@ -317,10 +321,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="singleProject">
+                    <div id="filter-ai" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Boostifai" data-desc="   Boostifai enhances your website’s visibility on search engines, helping more potential
+                    customers find you. With our automated AI technology, you can focus on your business
+                    while we handle the technical details.">
                         <div
                             class="project-banenr position-relative d-flex flex-column flex-md-row align-items-start px-5 py-1">
-                            <img class="project-logo pt-md-5" src="./assets/images/boostifai-boost-your-website.webp" alt="project logo">
+                            <img class="project-logo pt-md-5" src="./assets/images/boostifai-boost-your-website.webp"
+                                alt="project logo">
                             <img class="project-large-banenr mx-auto" src="./assets/images/MacBook Pro Mockup 2.png"
                                 alt="dan banner">
                             <div id="playButton2" class="play-btn play-button position-absolute w-100 h-100">
@@ -387,7 +395,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="singleProject">
+                    <div id="filter-mobile-apps" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Kid Life Skills" data-desc=" Kids Life Skills, a multiplatform coding and learning platform for kids. It teaches
+                    essential life skills like problem-solving and critical thinking through interactive
+                    lessons and games.">
                         <div
                             class="project-banenr position-relative d-flex flex-column flex-md-row align-items-start px-5 py-1">
                             <img class="project-logo pt-md-5" src="./assets/images/kidslifeskills1.png"
@@ -430,7 +441,9 @@
                         </div>
                     </div>
 
-                    <div class="singleProject">
+                    <div id="filter-ai" class="singleProject" data-tags="JavaScript Reactnative Microsoft .Net Python"
+                        data-title="Urban Blue" data-desc="A versatile AI-powered digital system to identify, assess and prevent operational
+                    challenges on farms using hi-tech equipment by turning them into actionable insights.">
                         <div class="project-banenr d-flex flex-column flex-md-row align-items-start px-5 py-1">
                             <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo">
                             <img class="project-large-banenr mx-auto" src="./assets/images/UB mockup2.png"
@@ -473,6 +486,230 @@
                             </p>
                         </div>
                     </div>
+
+                    <div id="filter-custom-software" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Real Estate" data-desc="  AI Solutions for Real Estate leverages AI technology to automate property listings,
+                    inspections, and security. By using automated image tagging, AI-driven drone
+                    inspections, and facial recognition, it ensures accurate listings, efficient property
+                    maintenance, and enhanced building security. This approach saves time and improves
+                    overall property management efficiency.">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start overflow-hidden">
+                            <!-- <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo"> -->
+                            <img class="project-large-banenr w-100 h-100 mx-auto"
+                                src="./assets/images/realstate-banner.png" alt="real state banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Real Estate</p>
+                                <!-- <a href="https://urbanblue.swiss/" target="_blank" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a> -->
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/paythonicon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Python</p>
+                                </div>
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                AI Solutions for Real Estate leverages AI technology to automate property listings,
+                                inspections, and security. By using automated image tagging, AI-driven drone
+                                inspections, and facial recognition, it ensures accurate listings, efficient property
+                                maintenance, and enhanced building security. This approach saves time and improves
+                                overall property management efficiency.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="filter-ai" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Health" data-desc=" AI-Powered Medical Imaging Report Generation uses AI to analyze medical images like
+                    X-rays, MRIs, and CT scans. It enhances diagnostic accuracy by quickly detecting
+                    abnormalities, reducing the workload for radiologists. This solution helps manage more
+                    cases efficiently without sacrificing care quality, ensuring timely and accurate
+                    diagnoses for patients.">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start overflow-hidden">
+                            <!-- <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo"> -->
+                            <img class="project-large-banenr w-100 h-100 mx-auto" src="./assets/images/healthbanner.png"
+                                alt="health banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Health</p>
+                                <!-- <a href="https://urbanblue.swiss/" target="_blank" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a> -->
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/paythonicon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Python</p>
+                                </div>
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                AI-Powered Medical Imaging Report Generation uses AI to analyze medical images like
+                                X-rays, MRIs, and CT scans. It enhances diagnostic accuracy by quickly detecting
+                                abnormalities, reducing the workload for radiologists. This solution helps manage more
+                                cases efficiently without sacrificing care quality, ensuring timely and accurate
+                                diagnoses for patients.
+
+                            </p>
+                            <p class="text-white project-desc">
+                                AI-Powered Personalized Skincare Solutions enables users to upload images for AI-based
+                                skin analysis. It provides personalized recommendations for skincare products or
+                                treatments, making dermatological assessments more accessible. This system reduces the
+                                need for in-person visits, offering a convenient and timely solution for users' skin
+                                concerns.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="filter-mobile-apps" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Aquaculture" data-desc="Aquaculture Health Monitoring & Biomass Estimation utilizes AI and high-resolution
+                    cameras to monitor fish health and estimate biomass in real-time. The system detects
+                    early signs of disease through computer vision and automates biomass estimation to
+                    ensure accurate fish population management. This reduces manual effort, improves
+                    productivity, and minimizes the risk of disease outbreaks in aquaculture environments.">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start overflow-hidden">
+                            <!-- <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo"> -->
+                            <img class="project-large-banenr w-100 h-100 mx-auto"
+                                src="./assets/images/BIOMASS ESTIMATION.png" alt="Aquaculture banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Aquaculture</p>
+                                <!-- <a href="https://urbanblue.swiss/" target="_blank" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a> -->
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/paythonicon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Python</p>
+                                </div>
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                Aquaculture Health Monitoring & Biomass Estimation utilizes AI and high-resolution
+                                cameras to monitor fish health and estimate biomass in real-time. The system detects
+                                early signs of disease through computer vision and automates biomass estimation to
+                                ensure accurate fish population management. This reduces manual effort, improves
+                                productivity, and minimizes the risk of disease outbreaks in aquaculture environments.
+
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div id="filter-mobile-apps" class="singleProject"
+                        data-tags="JavaScript Reactnative Microsoft .Net Python" data-title="Automotive" data-desc=" AutoSense & PlateSense Solutions combine AI-powered vehicle image analysis and smart
+                    license plate recognition to enhance the customer experience and streamline vehicle
+                    management. AutoSense provides personalized accessory recommendations by analyzing
+                    vehicle images, while PlateSense uses real-time license plate recognition for seamless
+                    tracking and monitoring. Together, these solutions improve operational efficiency and
+                    customer satisfaction in automotive applications.">
+                        <div class="project-banenr d-flex flex-column flex-md-row align-items-start overflow-hidden">
+                            <!-- <img class="project-logo pt-md-5" src="./assets/images/urbanblue1.png" alt="project logo"> -->
+                            <img class="project-large-banenr w-100 h-100 mx-auto" src="./assets/images/AUTOVISION.png"
+                                alt="Automotive banner">
+                        </div>
+                        <div class="px-lg-5">
+                            <div class="text-white d-flex justify-content-between align-items-center pt-4">
+                                <p class="p-name">Automotive</p>
+                                <!-- <a href="https://urbanblue.swiss/" target="_blank" class="share-link">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0747 7.42114H10.3835C9.49615 7.42114 8.64518 7.7646 8.01775 8.37597C7.39033 8.98733 7.03784 9.81652 7.03784 10.6811V30.2409C7.03784 31.1055 7.39033 31.9347 8.01775 32.5461C8.64518 33.1575 9.49615 33.5009 10.3835 33.5009H30.4572C31.3445 33.5009 32.1955 33.1575 32.8229 32.5461C33.4503 31.9347 33.8028 31.1055 33.8028 30.2409V23.721M20.4203 20.461L33.8028 7.42114M33.8028 7.42114V15.5711M33.8028 7.42114H25.4388"
+                                            stroke="white" stroke-width="2.93397" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a> -->
+                            </div>
+                            <div class="tags pb-4 d-flex gap-2 gap-lg-4 flex-wrap">
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/paythonicon.png" alt=".net icon">
+                                    <p data-tags="Python" class="tag-name mb-0">Python</p>
+                                </div>
+                                <div class="tag netTagbg d-flex align-items-center gap-3">
+                                    <img src="./assets/images/net1.png" alt=".net icon">
+                                    <p data-tags="Microsoft .Net" class="tag-name mb-0">Microsoft .Net</p>
+                                </div>
+                                <div class="tag reactTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/reacticon.png" alt=".net icon">
+                                    <p data-tags="React Native" class="tag-name mb-0">React Native</p>
+                                </div>
+                                <div class="tag javaTag d-flex align-items-center gap-3">
+                                    <img src="./assets/images/JavaScript-logo1.png" alt=".net icon">
+                                    <p data-tags="JavaScript" class="tag-name mb-0">JavaScript</p>
+                                </div>
+                            </div>
+                            <p class="text-white project-desc">
+                                AutoSense & PlateSense Solutions combine AI-powered vehicle image analysis and smart
+                                license plate recognition to enhance the customer experience and streamline vehicle
+                                management. AutoSense provides personalized accessory recommendations by analyzing
+                                vehicle images, while PlateSense uses real-time license plate recognition for seamless
+                                tracking and monitoring. Together, these solutions improve operational efficiency and
+                                customer satisfaction in automotive applications.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div id="no-results" class="text-center text-danger d-none py-y my-5">No data found</div>
                 </div>
             </div>
         </div>
@@ -486,6 +723,55 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('search');
+            const projectsContainer = document.getElementById('projects-container');
+            const noResultsMessage = document.getElementById('no-results');
+            const tags = document.querySelectorAll('.tag-name');
+
+            searchInput.addEventListener('input', () => {
+                const query = searchInput.value.toLowerCase();
+                const projects = projectsContainer.getElementsByClassName('singleProject');
+                let hasResults = false;
+
+                console.log(`Searching for: ${query}`);
+                for (let project of projects) {
+                    const title = project.getAttribute('data-title')?.toLowerCase() || "";
+                    const desc = project.getAttribute('data-desc')?.toLowerCase() || "";
+                    const projectTags = project.getAttribute('data-tags')?.toLowerCase() || "";
+
+                    console.log(`Checking project: ${title}, ${desc}, ${projectTags}`);
+
+                    if (title.includes(query) || desc.includes(query) || projectTags.includes(query)) {
+                        project.style.display = 'block';
+                        hasResults = true;
+                    } else {
+                        project.style.display = 'none';
+                    }
+                }
+                tags.forEach(tag => {
+                    const tagText = tag.getAttribute('data-tags')?.toLowerCase() || "";
+
+                    if (tagText.includes(query)) {
+                        tag.parentElement.style.display = 'flex';
+                        hasResults = true;
+                    } else {
+                        tag.parentElement.style.display = 'none';
+                    }
+                });
+                if (hasResults) {
+                    noResultsMessage.classList.add('d-none');
+                } else {
+                    noResultsMessage.classList.remove('d-none');
+                }
+            });
+        });
+    </script>
+
+
     <script>
 
         document.getElementById('playButton').addEventListener('click', function () {
@@ -493,7 +779,7 @@
             video.classList.remove('d-none');
             video.play();
         });
-        
+
         document.getElementById('playButton2').addEventListener('click', function () {
             const video = document.getElementById('projectVideo2');
             video.classList.remove('d-none');
@@ -527,29 +813,191 @@
             });
         });
 
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     const filters = document.querySelectorAll('.singleFilter');
+
+        //     filters.forEach(filter => {
+        //         const checkbox = filter.querySelector('.filter-checkbox');
+        //         checkbox.addEventListener('change', () => {
+        //             if (checkbox.checked) {
+        //                 filter.classList.add('filter-active');
+        //             } else {
+        //                 filter.classList.remove('filter-active');
+        //             }
+        //         });
+
+        //         filter.addEventListener('click', () => {
+        //             checkbox.checked = !checkbox.checked;
+        //             if (checkbox.checked) {
+        //                 filter.classList.add('filter-active');
+        //             } else {
+        //                 filter.classList.remove('filter-active');
+        //             }
+        //         });
+        //     });
+        // });
+
+
+
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     const filters = document.querySelectorAll('.singleFilter');
+        //     const allProjects = document.querySelectorAll('.singleProject');
+
+        //     // Function to show projects based on active filters
+        //     const showProjectsByActiveFilters = () => {
+        //         // Check if the "All" filter is active
+        //         const allChecked = document.getElementById('filter-all').checked;
+
+        //         allProjects.forEach(project => {
+        //             if (allChecked) {
+        //                 project.style.display = 'block';
+        //             } else {
+        //                 const activeFilters = Array.from(filters).filter(filter =>
+        //                     filter.querySelector('.filter-checkbox').checked
+        //                 ).map(filter => filter.querySelector('.filter-checkbox').id);
+
+        //                 // Show project if it matches any active filter
+        //                 if (activeFilters.length === 0 || activeFilters.includes(project.id)) {
+        //                     project.style.display = 'block';
+        //                 } else {
+        //                     project.style.display = 'none';
+        //                 }
+        //             }
+        //         });
+        //     };
+
+        //     // Set default state to show all projects
+        //     showProjectsByActiveFilters(); // This will show all projects by default
+
+        //     filters.forEach(filter => {
+        //         const checkbox = filter.querySelector('.filter-checkbox');
+
+        //         // Event listener for checkbox change
+        //         checkbox.addEventListener('change', () => {
+        //             // Uncheck all other checkboxes when one is checked
+        //             if (checkbox.checked) {
+        //                 filters.forEach(f => {
+        //                     const otherCheckbox = f.querySelector('.filter-checkbox');
+        //                     if (otherCheckbox !== checkbox) {
+        //                         otherCheckbox.checked = false;
+        //                         f.classList.remove('filter-active');
+        //                     }
+        //                 });
+        //                 filter.classList.add('filter-active');
+        //             } else {
+        //                 filter.classList.remove('filter-active');
+        //             }
+        //             showProjectsByActiveFilters(); // Show projects based on active filters
+        //         });
+
+        //         // Event listener for filter click
+        //         filter.addEventListener('click', () => {
+        //             checkbox.checked = !checkbox.checked;
+        //             // Uncheck all other checkboxes when one is checked
+        //             if (checkbox.checked) {
+        //                 filters.forEach(f => {
+        //                     const otherCheckbox = f.querySelector('.filter-checkbox');
+        //                     if (otherCheckbox !== checkbox) {
+        //                         otherCheckbox.checked = false;
+        //                         f.classList.remove('filter-active');
+        //                     }
+        //                 });
+        //                 filter.classList.add('filter-active');
+        //             } else {
+        //                 filter.classList.remove('filter-active');
+        //             }
+        //             showProjectsByActiveFilters(); // Show projects based on active filters
+        //         });
+        //     });
+        // });
+
+
+
+
+
+
+
+
         document.addEventListener('DOMContentLoaded', () => {
-            const filters = document.querySelectorAll('.singleFilter');
+    const filters = document.querySelectorAll('.singleFilter');
+    const allProjects = document.querySelectorAll('.singleProject');
 
-            filters.forEach(filter => {
-                const checkbox = filter.querySelector('.filter-checkbox');
-                checkbox.addEventListener('change', () => {
-                    if (checkbox.checked) {
-                        filter.classList.add('filter-active');
-                    } else {
-                        filter.classList.remove('filter-active');
-                    }
-                });
+    // Function to show projects based on active filters
+    const showProjectsByActiveFilters = () => {
+        // Check if the "All" filter is active
+        const allChecked = document.getElementById('filter-all').checked;
 
-                filter.addEventListener('click', () => {
-                    checkbox.checked = !checkbox.checked;
-                    if (checkbox.checked) {
-                        filter.classList.add('filter-active');
-                    } else {
-                        filter.classList.remove('filter-active');
-                    }
-                });
-            });
+        allProjects.forEach(project => {
+            if (allChecked) {
+                project.style.display = 'block'; // Show all projects if "All" is checked
+            } else {
+                const activeFilters = Array.from(filters).filter(filter =>
+                    filter.querySelector('.filter-checkbox').checked
+                ).map(filter => filter.querySelector('.filter-checkbox').id);
+
+                // Show project if it matches any active filter
+                if (activeFilters.length === 0 || activeFilters.includes(project.id)) {
+                    project.style.display = 'block';
+                } else {
+                    project.style.display = 'none';
+                }
+            }
         });
+    };
+
+    // Set default state to show all projects and mark "All" filter as active
+    showProjectsByActiveFilters(); // This will show all projects by default
+
+    // Mark the "All" filter as active by default
+    filters.forEach(filter => {
+        const checkbox = filter.querySelector('.filter-checkbox');
+        if (checkbox.id === 'filter-all') {
+            filter.classList.add('filter-active'); // Add active class to "All" filter
+        }
+    });
+
+    filters.forEach(filter => {
+        const checkbox = filter.querySelector('.filter-checkbox');
+
+        // Event listener for checkbox change
+        checkbox.addEventListener('change', () => {
+            // Uncheck all other checkboxes when one is checked
+            if (checkbox.checked) {
+                filters.forEach(f => {
+                    const otherCheckbox = f.querySelector('.filter-checkbox');
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                        f.classList.remove('filter-active');
+                    }
+                });
+                filter.classList.add('filter-active');
+            } else {
+                filter.classList.remove('filter-active');
+            }
+            showProjectsByActiveFilters(); // Show projects based on active filters
+        });
+
+        // Event listener for filter click
+        filter.addEventListener('click', () => {
+            checkbox.checked = !checkbox.checked;
+            // Uncheck all other checkboxes when one is checked
+            if (checkbox.checked) {
+                filters.forEach(f => {
+                    const otherCheckbox = f.querySelector('.filter-checkbox');
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                        f.classList.remove('filter-active');
+                    }
+                });
+                filter.classList.add('filter-active');
+            } else {
+                filter.classList.remove('filter-active');
+            }
+            showProjectsByActiveFilters(); // Show projects based on active filters
+        });
+    });
+});
+
     </script>
     <script>
         particlesJS("particles-js",
